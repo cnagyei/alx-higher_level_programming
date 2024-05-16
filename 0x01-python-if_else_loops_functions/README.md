@@ -7,7 +7,7 @@
 - [How To Use String Formatters in Python 3](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
 - [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
 - [Learn to Program 2 : Looping](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
-- [Pycodestyle – Style Guide for Python Code](https://pypi.org/project/pycodestyle/)
+- [Pycodestyle - Style Guide for Python Code](https://pypi.org/project/pycodestyle/)
 
 ### man or help:
 
@@ -105,4 +105,19 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 ```sh
 guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
 abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
+```
+
+### 3. When I was having that alphabet soup, I never thought that it would pay off
+
+Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+
+- Print all the letters except `q` and `e`
+- You can only use one `print` function with string format
+- You can only use one loop in your code
+- You are not allowed to store characters in a variable
+- You are not allowed to import any module
+
+```sh
+guillaume@ubuntu:~/0x01$ ./3-print_alphabt.py
+abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$
 ```
