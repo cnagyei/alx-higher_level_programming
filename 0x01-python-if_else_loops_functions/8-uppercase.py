@@ -2,9 +2,9 @@
 def uppercase(str):
     """Prints a string in uppercase followed by a new line"""
 
-    for c in range(len(str)):
-        ascii_pt = ord(str[c])
+    for c in str:
+        ascii_pt = ord(c)
         if ascii_pt >= 97 and ascii_pt <= 122:
-            print("{}".format(chr(ascii_pt - 32)), end="")
-        else:
-            print("{}".format(str[c]), end="")
+            c = chr(ascii_pt - 32)
+        print("{}".format(c), end="")
+    print("")
