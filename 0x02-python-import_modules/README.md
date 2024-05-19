@@ -164,7 +164,7 @@ guillaume@ubuntu:~/0x02$ ./2-args.py Hello Welcome To The Best School
 guillaume@ubuntu:~/0x02$
 ```
 
-### Infinite addition
+### 3. Infinite addition
 
 Write a program that prints the result of the addition of all arguments
 
