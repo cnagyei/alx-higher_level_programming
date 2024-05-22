@@ -1,4 +1,4 @@
 -- Group occurrences
-SELECT score, COUNT(score) as number
+SELECT score, COUNT(score) AS number
   FROM second_table
   GROUP BY score;
