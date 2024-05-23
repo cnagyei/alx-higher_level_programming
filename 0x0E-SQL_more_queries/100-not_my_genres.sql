@@ -1,4 +1,4 @@
--- List all genres of a show
+-- Subquery
 SELECT tv_genres.name AS name
   FROM tv_genres
   WHERE name NOT IN (
