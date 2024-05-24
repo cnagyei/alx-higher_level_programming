@@ -5,8 +5,11 @@ def print_reversed_list_integer(my_list=[]):
     Arguments:
     my_list -- the list
     """
-    for i in reversed(range(len(my_list))):
-        print("{:d}".format(my_list[i]))
+    try:
+        for i in reversed(range(len(my_list))):
+            print("{:d}".format(my_list[i]))
+    except TypeError:
+        pass
 
 
 if __name__ == "__main__":
