@@ -6,7 +6,7 @@ def print_list_integer(my_list=[]):
     my_list -- the list
     """
     for i in my_list:
-        print("{}".format(i))
+        print("{:d}".format(i))
 
 if __name__ == "__main__":
     import sys
