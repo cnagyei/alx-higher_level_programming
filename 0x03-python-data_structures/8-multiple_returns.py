@@ -8,7 +8,7 @@ def multiple_returns(sentence):
     strlen = len(sentence)
     if strlen == 0:
         return ((0, None))
-        exit (1)
+        exit(1)
 
     first_char = sentence[0]
 
