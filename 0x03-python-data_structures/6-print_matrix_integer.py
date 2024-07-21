@@ -6,9 +6,8 @@ def print_matrix_integer(matrix=[[]]):
     matrix -- Matrix of integers
     """
     for row in matrix:
-        for element in row:
-            print("{:d}".format(element), end=" ")
-        print("")
+        print(*row, sep=" ")
+
 
 if __name__ == "__main__":
     import sys
