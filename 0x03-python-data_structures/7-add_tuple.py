@@ -8,7 +8,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
 
     Return: Tuple with 2 integers
     """
-    add_two_zeros  = (0, 0)
+    add_two_zeros = (0, 0)
     add_one_zero = (0,)
     # tuple_a is empty
     if len(tuple_a) == 0:
@@ -37,8 +37,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
     # pack tuples
     tuples_added = x, y
 
-    return (tuples_added)
-    
+    return (tuples_added) 
 
 
 if __name__ == "__main__":
