@@ -37,7 +37,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
     # pack tuples
     tuples_added = x, y
 
-    return (tuples_added) 
+    return (tuples_added)
 
 
 if __name__ == "__main__":
