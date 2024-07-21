@@ -13,7 +13,6 @@ def add_tuple(tuple_a=(), tuple_b=()):
     # tuple_a is empty
     if len(tuple_a) == 0:
         tuple_a += add_two_zeros
-
     # if tuple_a contains 1 element
     elif len(tuple_a) == 1:
         tuple_a += add_one_zero
@@ -21,7 +20,6 @@ def add_tuple(tuple_a=(), tuple_b=()):
     # tuple_b is empty
     if len(tuple_b) == 0:
         tuple_b += add_two_zeros
-
     # if tuple_b contains 1 element
     elif len(tuple_b) == 1:
         tuple_b += add_one_zero
@@ -36,11 +34,9 @@ def add_tuple(tuple_a=(), tuple_b=()):
     # unpack tuples
     x, y = tuple_a
     q, r = tuple_b
-
     # add elements
     x += q
     y += r
-
     # pack tuples
     tuples_added = x, y
 
