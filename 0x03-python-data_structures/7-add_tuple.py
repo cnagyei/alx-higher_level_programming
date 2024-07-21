@@ -26,6 +26,13 @@ def add_tuple(tuple_a=(), tuple_b=()):
     elif len(tuple_b) == 1:
         tuple_b += add_one_zero
 
+    # if tuple_a has more than 2 elements
+    x = list(tuple_a)
+    tuple_a = tuple(x[0:2])
+    # if tuple_b has more than 2 elements
+    y = list(tuple_b)
+    tuple_b = tuple(y[0:2])
+
     # unpack tuples
     x, y = tuple_a
     q, r = tuple_b
